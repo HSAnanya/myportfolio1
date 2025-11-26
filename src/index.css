@@ -1,0 +1,40 @@
+html, body { margin: 0; padding: 0; }
+
+body {
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Responsive styles for mobile and tablets */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+    height: auto;
+    position: static;
+  }
+
+  section {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  #Abouthome {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  #MyImg,
+  #AboutImg {
+    margin: 0 auto;
+    display: block;
+  }
+}

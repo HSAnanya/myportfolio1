@@ -1,0 +1,21 @@
+ #projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  background-color:#c2c0c000;
+  border-radius: 1rem;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.project-card {
+  background-color: #f0f0f000;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  border-color:#1fe211;
+  background-color: #c3c7fb1d;
+  transform: scale(1.05);
+}

@@ -1,0 +1,27 @@
+ #tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr)); 
+  background-color:#c2c0c000;
+  border-radius: 1rem;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.tool-card {
+  background-color: #f0f0f000;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: transform 0.3s;
+}
+
+.tool-card:hover {
+  border-color: #1fe211;
+  background-color: #c3c7fb1d;
+  transform: scale(1.05);
+}
+.tools-img {
+  width:10px;
+  height: 10px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
